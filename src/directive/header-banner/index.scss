@@ -1,0 +1,32 @@
+.header-banner {
+  color: hsla(0, 0%, 100%, .8);
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header-inner {
+  padding: 0 20px;
+}
+.banner-title {
+  font-family: Lato,Helvetica Neue,Helvetica,Arial,sans-serif;
+  padding-top: 60px;
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.banner-start {
+  padding: 40px 0 60px 0;
+  font-size: 18px;
+  vertical-align: top;
+}
+.banner-start-site {
+  padding: 15px 20px;
+  font-family: 'Source Code Pro', Pro, Monaco;
+  background-color: #283542;
+}
+.banner-start-link {
+  color: #fff;
+  background-color: #0e83cd;
+  padding: 15px;
+  transition: .2s;
+}

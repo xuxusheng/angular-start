@@ -1,0 +1,49 @@
+{
+  "name": "angular-start",
+  "version": "0.0.1",
+  "description": "webpack搭建angular环境",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --hot --colors --inline --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/xuxusheng/angular-start.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuxusheng/angular-start/issues"
+  },
+  "homepage": "https://github.com/xuxusheng/angular-start#readme",
+  "devDependencies": {
+    "babel-core": "^6.11.4",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.1",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "css-loader": "^0.23.1",
+    "es6-templates": "^0.2.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "fastparse": "^1.1.1",
+    "html-minifier": "^3.0.2",
+    "html-webpack-plugin": "^2.22.0",
+    "loader-utils": "^0.2.15",
+    "object-assign": "^4.1.0",
+    "postcss-initial": "^1.5.2",
+    "postcss-loader": "^0.9.1",
+    "postcss-scss": "^0.1.9",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-ui-bootstrap": "^2.0.1",
+    "angular-ui-router": "^0.3.1",
+    "bootstrap": "^3.3.7",
+    "file-loader": "^0.9.0"
+  }
+}
